@@ -31,6 +31,17 @@ npm install
 node index
 ```
 
+# Informações adicionais
+
+Como não foi solicitado banco de dados, foi criado uma constante "users" para simular os dados de usuário.
+
+```javascript
+const users = [
+  { name: 'admin', password: 'admin' },
+  { name: 'teste', password: '123' }
+]
+```
+
 # Autor
 
 Carlos Rodrigo Bernardes de Souza
